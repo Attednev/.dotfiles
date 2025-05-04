@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 
 sudo pacman -S git papirus-icon-theme nvim alacritty fish zsh
 
