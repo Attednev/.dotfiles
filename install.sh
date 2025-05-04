@@ -20,12 +20,7 @@ else
     echo -e "\nPre-install script not found or not executable. Skipping."
 fi
 
-if [ -f "$SYMLINKS_FILE" ]; then
-    echo -e "\nProcessing symlinks configuration..."
-    "$SYMLINK_SCRIPT"
-else
-    echo -e "\nSymlinks configuration file not found. Skipping symlink creation."
-fi
+"$SYMLINK_SCRIPT"
 
 if [ -x "$POST_SCRIPT" ]; then
     read -rp "\nRun post-install script? [Y/n] " run_post

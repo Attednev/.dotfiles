@@ -9,6 +9,13 @@ SYMLINKS_FILE="$DOTFILES_DIR/symlinks.conf"
 BACKUP_DIR="$HOME/.dotfiles_backup/$(date +%Y%m%d-%H%M%S)"
 BACKUP_ENABLED=false
 
+if [ -f "$SYMLINKS_FILE" ]; then
+    echo -e "\nProcessing symlinks configuration..."
+else
+    echo -e "\nSymlinks configuration file not found. Skipping symlink creation."
+    return
+fi
+
 expand_path() {
     local path="$1"
     path=${path//\$HOME/$HOME}
