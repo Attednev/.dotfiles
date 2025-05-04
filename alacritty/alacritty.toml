@@ -1,0 +1,27 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/rosepine.toml"
+]
+
+[window]
+dimensions = { columns = 120, lines = 24 }
+padding = { x = 5, y = 5 }
+decorations = "full"
+dynamic_title = true
+opacity = 0.95
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+normal = { family = "monospace" }
+bold = { family = "monospace" }
+italic = { family = "monospace" }
+size = 11
+
+[keyboard]
+bindings = [
+    { key= "Back", mods= "Control", chars= "\u0017" },
+]
+
