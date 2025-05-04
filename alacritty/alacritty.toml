@@ -1,0 +1,27 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/github.toml"
+]
+
+[window]
+dimensions = { columns = 120, lines = 24 }
+decorations = "none"
+dynamic_title = true
+opacity = 0.93
+padding = { x = 6, y = 6 }
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[font]
+normal = { family = "monospace" }
+bold = { family = "monospace" }
+italic = { family = "monospace" }
+size = 12
+
+[keyboard]
+bindings = [
+    { key= "Back", mods= "Control", chars= "\u0017" },
+]
+
