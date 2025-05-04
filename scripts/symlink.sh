@@ -2,18 +2,16 @@
 
 if [ $# -eq 0 ]; then
     echo "Installation script was called without the dotfiles location"
-    return
+    exit 1
 fi
 
-SYMLINKS_FILE="$DOTFILES_DIR/symlinks.conf"
+SYMLINKS_FILE="$1/symlinks.conf"
 BACKUP_DIR="$HOME/.dotfiles_backup/$(date +%Y%m%d-%H%M%S)"
 BACKUP_ENABLED=false
 
-if [ -f "$SYMLINKS_FILE" ]; then
-    echo -e "\nProcessing symlinks configuration..."
-else
+if [ ! -f "$SYMLINKS_FILE" ]; then
     echo -e "\nSymlinks configuration file not found. Skipping symlink creation."
-    return
+    exit 1
 fi
 
 expand_path() {
@@ -31,6 +29,7 @@ if [[ "$backup_choice" =~ ^[Yy]$ ]]; then
     mkdir -p "$BACKUP_DIR"
 fi
 
+echo -e "\nProcessing symlinks configuration..."
 while IFS=: read -r source target; do
     [[ -z "$source" || "$source" == \#* ]] && continue
 
