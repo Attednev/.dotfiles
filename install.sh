@@ -20,7 +20,7 @@ else
     echo -e "\nPre-install script not found or not executable. Skipping."
 fi
 
-"$SYMLINK_SCRIPT $DOTFILES_DIR"
+sh $SYMLINK_SCRIPT "$DOTFILES_DIR"
 
 if [ -x "$POST_SCRIPT" ]; then
     read -rp "\nRun post-install script? [Y/n] " run_post
