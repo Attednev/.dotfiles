@@ -1,0 +1,134 @@
+[ColorEffects:Disabled]
+Color=110,106,134
+ColorAmount=0.3
+ColorEffect=2
+ContrastAmount=0.1
+ContrastEffect=0
+IntensityAmount=-1
+IntensityEffect=0
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=25, 23, 36
+ColorAmount=0.5
+ColorEffect=0
+ContrastAmount=0
+ContrastEffect=0
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=31, 29, 46
+BackgroundNormal=38,35,58
+DecorationFocus=235,189,187
+DecorationHover=227, 194, 193
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=137,180,250
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=224,222,244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Complementary]
+BackgroundAlternate=82, 79, 103
+BackgroundNormal=64, 61, 82
+DecorationFocus=137,180,250
+DecorationHover=38,35,58
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=137,180,250
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=224,222,244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Header]
+BackgroundAlternate=31, 29, 46
+BackgroundNormal=25, 23, 36
+DecorationFocus=137,180,250
+DecorationHover=38,35,58
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=137,180,250
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=224,222,244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Selection]
+BackgroundAlternate=235,189,187
+BackgroundNormal=235,189,187
+DecorationFocus=235,189,187
+DecorationHover=38,35,58
+ForegroundLink=137,180,250
+ForegroundInactive=255,0,0
+ForegroundNormal=25, 23, 36
+ForegroundActive=250, 179, 135
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Tooltip]
+BackgroundNormal=38,35,58
+BackgroundAlternate=31, 29, 46
+DecorationFocus=137,180,250
+DecorationHover=38,35,58
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=137,180,250
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=224,222,244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:View]
+BackgroundAlternate=38, 35, 58
+BackgroundNormal=31, 29, 46
+DecorationFocus=137,180,250
+DecorationHover=193, 190, 216
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=137,180,250
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=224,222,244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[Colors:Window]
+BackgroundAlternate=31, 29, 46
+BackgroundNormal=25, 23, 36
+DecorationFocus=137,180,250
+DecorationHover=38,35,58
+ForegroundActive=250, 179, 135
+ForegroundInactive=166, 173, 200
+ForegroundLink=137,180,250
+ForegroundNegative=243, 139, 168
+ForegroundNeutral=249, 226, 175
+ForegroundNormal=224,222,244
+ForegroundPositive=166, 227, 161
+ForegroundVisited=203, 166, 247
+
+[General]
+ColorScheme=RosePine
+Name=RosePine
+accentActiveTitlebar=false
+shadeSortColumn=true
+
+[KDE]
+contrast=4
+
+[WM]
+activeBackground=31, 29, 46
+activeBlend=224,222,244
+activeForeground=224,222,24
+inactiveBackground=31, 29, 46
+inactiveBlend=166, 227, 161
+inactiveForeground=166, 227, 161
+
