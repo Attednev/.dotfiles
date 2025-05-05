@@ -23,7 +23,7 @@ IntensityEffect=0
 [Colors:Button]
 BackgroundAlternate=64,61,82
 BackgroundNormal=38,35,58
-DecorationFocus=156,207,216
+DecorationFocus=59,141,173
 DecorationHover=156,207,216
 ForegroundActive=235,188,186
 ForegroundInactive=110,106,134
@@ -51,7 +51,7 @@ ForegroundVisited=160,156,189
 [Colors:Header]
 BackgroundAlternate[$d]
 BackgroundNormal[$d]
-DecorationFocus[$d]
+DecorationFocus=156,207,216
 DecorationHover[$d]
 ForegroundActive[$d]
 ForegroundInactive[$d]
@@ -91,7 +91,7 @@ ForegroundPositive=63,197,116
 ForegroundVisited=160,156,189
 
 [Colors:Tooltip]
-BackgroundAlternate=0,0,0
+BackgroundAlternate=31,29,46
 BackgroundNormal=25,23,36
 DecorationFocus=156,207,216
 DecorationHover=156,207,216
