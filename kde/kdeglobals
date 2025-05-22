@@ -135,8 +135,7 @@ ForegroundVisited=160,156,189
 [General]
 AccentColor=0,0,0,0
 BrowserApplication=brave-browser.desktop
-ColorScheme=RosePine
-ColorSchemeHash=6d5b152f679e9fd2529e7575ba5c4c2ced50d0f0
+ColorSchemeHash=ac1239883032f34988448fa7fa8bbd014f627faa
 TerminalApplication=foot
 TerminalService=foot.desktop
 
