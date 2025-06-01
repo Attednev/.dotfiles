@@ -19,8 +19,8 @@ vim.keymap.set({"n", "v", "o", "x"}, "H", "^")
 vim.keymap.set({"n", "v", "o", "x"}, "L", "$")
 
 -- Escape remaps
-vim.keymap.set({"i", "v"}, "jk", "<Esc>")
-vim.keymap.set({"i", "v"}, "jj", "<Esc>")
+vim.keymap.set("i", "jk", "<Esc>")
+vim.keymap.set("i", "jj", "<Esc>")
 
 -- Center after jump paragraph
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
