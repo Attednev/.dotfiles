@@ -41,7 +41,6 @@ while IFS=: read -r source target; do
         continue
     fi
 
-
     if [ -L "$target" ] && [ "$(readlink -f "$target")" == "$(readlink -f "$source")" ]; then
         echo "Correct symlink already exists. Skipping."
         continue
