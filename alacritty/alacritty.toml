@@ -1,14 +1,14 @@
 [general]
 import = [
-    "~/.config/alacritty/themes/rosepine.toml"
+    "~/.config/alacritty/themes/github.toml"
 ]
 
 [window]
 dimensions = { columns = 120, lines = 24 }
-padding = { x = 5, y = 5 }
-decorations = "full"
+decorations = "none"
 dynamic_title = true
-opacity = 0.95
+opacity = 0.93
+padding = { x = 6, y = 6 }
 
 [scrolling]
 history = 10000
@@ -18,7 +18,7 @@ multiplier = 3
 normal = { family = "monospace" }
 bold = { family = "monospace" }
 italic = { family = "monospace" }
-size = 11
+size = 12
 
 [keyboard]
 bindings = [
