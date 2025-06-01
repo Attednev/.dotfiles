@@ -5,7 +5,7 @@ require("config.lazy_init")
 require("lazy").setup({
     require 'plugins.telescope',
     require 'plugins.cmp',
-    require 'plugins.rosepine',
+    require 'plugins.colorscheme',
     require 'plugins.comment',
     require 'plugins.conform',
     require 'plugins.dap',
