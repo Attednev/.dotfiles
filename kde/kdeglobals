@@ -136,8 +136,8 @@ ForegroundVisited=160,156,189
 AccentColor=0,0,0,0
 BrowserApplication=brave-browser.desktop
 ColorSchemeHash=ac1239883032f34988448fa7fa8bbd014f627faa
-TerminalApplication=alacritty
-TerminalService=Alacritty.desktop
+TerminalApplication=foot
+TerminalService=foot.desktop
 
 [Icons]
 Theme=Papirus-Dark
