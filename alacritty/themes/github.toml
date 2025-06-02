@@ -1,81 +1,69 @@
 
 [colors]
-  # Default colors
-  [colors.primary]
-    background = '#0a0c10' # canvas.default
-    foreground = '#f0f3f6' # fg.default
 
-  # Cursor colors
-  [colors.cursor]
-    text = '#0a0c10' # fg.on_emphasis (or fg.default if preferred)
-    cursor = '#409eff' # accent.emphasis
+    [colors.primary]
+        background = '#0a0c10'
+        foreground = '#f0f3f6'
 
-  # Normal colors
-  [colors.normal]
-    black =   '#0a0c10' # black.base
-    red =     '#ff9492' # red.base
-    green =   '#26cd4d' # green.base
-    yellow =  '#f0b72f' # yellow.base
-    blue =    '#71b7ff' # blue.base
-    magenta = '#cb9eff' # magenta.base
-    cyan =    '#76e3ea' # cyan.base
-    white =   '#d9dee3' # white.base
+    [colors.cursor]
+        text = '#0a0c10'
+        cursor = '#409eff'
 
-  # Bright colors
-  [colors.bright]
-    black =   '#272b33' # black.bright
-    red =     '#ffb1af' # red.bright
-    green =   '#4ae168' # green.bright
-    yellow =  '#f7c843' # yellow.bright
-    blue =    '#91cbff' # blue.bright
-    magenta = '#dbb7ff' # magenta.bright
-    cyan =    '#b3f0ff' # cyan.bright
-    white =   '#d9dee3' # white.bright
+    [colors.normal]
+        black =   '#0a0c10'
+        red =     '#ff9492'
+        green =   '#26cd4d'
+        yellow =  '#f0b72f'
+        blue =    '#71b7ff'
+        magenta = '#cb9eff'
+        cyan =    '#76e3ea'
+        white =   '#d9dee3'
 
-  # Dim colors (optional, using muted tones)
-  [colors.dim]
-    black =   '#14171b' # neutral.subtle
-    red =     '#2e1619' # danger.subtle
-    green =   '#0f2218' # success.subtle
-    yellow =  '#251d0f' # attention.subtle
-    blue =    '#111f34' # accent.subtle
-    magenta = '#211b33' # done.subtle
-    cyan =    '#272b33' # canvas.subtle (no specific cyan subtle)
-    white =   '#9ea7b3' # fg.subtle
+    [colors.bright]
+        black =   '#272b33'
+        red =     '#ffb1af'
+        green =   '#4ae168'
+        yellow =  '#f7c843'
+        blue =    '#91cbff'
+        magenta = '#dbb7ff'
+        cyan =    '#b3f0ff'
+        white =   '#d9dee3'
 
-  # Selection colors
-  [colors.selection]
-#text = '#0a0c10' # fg.on_emphasis
-# background = '#409eff' # accent.emphasis
-    text = '#f0f3f6' # fg.on_emphasis
-    background = '#1A3959' # accent.emphasis
+    [colors.dim]
+        black =   '#14171b'
+        red =     '#2e1619'
+        green =   '#0f2218'
+        yellow =  '#251d0f'
+        blue =    '#111f34'
+        magenta = '#211b33'
+        cyan =    '#272b33'
+        white =   '#9ea7b3'
 
-  # Search colors
-  [colors.search]
-    [colors.search.matches]
-      foreground = '#0a0c10' # fg.on_emphasis
-      background = '#e09b13' # attention.emphasis
-    [colors.search.focused_match]
-      foreground = '#0a0c10' # fg.on_emphasis
-      background = '#09b43a' # success.emphasis
+    [colors.selection]
+        text = '#f0f3f6'
+        background = '#1A3959'
 
-  # Hints colors
-  [colors.hints]
-    [colors.hints.start]
-      foreground = '#0a0c10' # fg.on_emphasis
-      background = '#e09b13' # attention.emphasis
-    [colors.hints.end]
-      foreground = '#0a0c10' # fg.on_emphasis
-      background = '#409eff' # accent.emphasis
+    [colors.search]
+        [colors.search.matches]
+            foreground = '#0a0c10'
+            background = '#e09b13'
+        [colors.search.focused_match]
+            foreground = '#0a0c10'
+            background = '#09b43a'
 
-  # Line indicator
-  [colors.line_indicator]
-    foreground = '#7a828e' # border.muted
-    background = '#272b33' # canvas.overlay
+    [colors.hints]
+        [colors.hints.start]
+            foreground = '#0a0c10'
+            background = '#e09b13'
+        [colors.hints.end]
+            foreground = '#0a0c10'
+            background = '#409eff'
 
-  # Footer bar
-  [colors.footer_bar]
-    background = '#272b33' # canvas.overlay
-    foreground = '#f0f3f6' # fg.default
+    [colors.line_indicator]
+        foreground = '#7a828e'
+        background = '#272b33'
 
+    [colors.footer_bar]
+        background = '#272b33'
+        foreground = '#f0f3f6'
 
